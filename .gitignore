@@ -1,0 +1,11 @@
+# Artefatos temporários gerados em tempo de execução
+
+# Tabela temporária do MySQL (recriada a cada inicialização)
+data/db/ibtmp1
+
+# Download temporário de temas/plugins pelo próprio WordPress
+data/wordpress/wp-content/upgrade/
+
+# Logs do Nginx
+logs/*
+!logs/.gitkeep

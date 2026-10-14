@@ -1,0 +1,35 @@
+curl -I http://frontend.test
+
+
+// Resultados:
+
+HTTP/1.1 200 OK
+Server: nginx/1.19.0
+Date: Wed, 14 Oct 2026 00:55:55 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.2.33
+Link: <http://frontend.test/index.php/wp-json/>; rel="https://api.w.org/"
+Link: <http://frontend.test/>; rel=shortlink
+X-Upstream: 172.30.0.11:80
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.19.0
+Date: Wed, 14 Oct 2026 00:55:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.2.33
+Link: <http://frontend.test/index.php/wp-json/>; rel="https://api.w.org/"
+Link: <http://frontend.test/>; rel=shortlink
+X-Upstream: 172.30.0.12:80
+
+HTTP/1.1 200 OK
+Server: nginx/1.19.0
+Date: Wed, 14 Oct 2026 00:55:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.2.33
+Link: <http://frontend.test/index.php/wp-json/>; rel="https://api.w.org/"
+Link: <http://frontend.test/>; rel=shortlink
+X-Upstream: 172.30.0.13:80
