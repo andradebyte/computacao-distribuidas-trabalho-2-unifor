@@ -2,6 +2,7 @@ services:
 
   nginx:
     image: nginx:1.19.0
+    restart: always
     ports:
       - "80:80"
     volumes:
